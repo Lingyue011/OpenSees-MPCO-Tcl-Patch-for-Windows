@@ -46,7 +46,7 @@ loads hdf5 shared library at runtime. if uncommented, hdf5 will be linked static
 #endif // !_HDF5 
 
 /* if hdf5 is loaded at runtime, this macro makes the process of loading hdf5 verbose */
-#define MPCO_LIBLOADER_VERBOSE
+//#define MPCO_LIBLOADER_VERBOSE
 
 /* max number of iterations to guess the number of cross sections in elements */
 #define MPCO_MAX_TRIAL_NSEC 100
